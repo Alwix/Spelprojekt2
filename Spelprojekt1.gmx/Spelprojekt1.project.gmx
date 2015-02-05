@@ -15,7 +15,6 @@
     <sprite>sprites\spr_zombieMelee</sprite>
     <sprite>sprites\spr_nextRoom</sprite>
     <sprite>sprites\spr_ladder</sprite>
-    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -37,12 +36,12 @@
     <object>objects\obj_jumpThru</object>
     <object>objects\effFadeToBlack</object>
     <object>objects\obj_ladder</object>
-    <object>objects\object12</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_test</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
