@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// testEgna variabler för gravitation, vspeed och hspeed, istället för att använda de inbyggda
+            <string>// Egna variabler för gravitation, vspeed och hspeed, istället för att använda de inbyggda
 grav = 0;
 vspd = 0;
 hspd = 0;
