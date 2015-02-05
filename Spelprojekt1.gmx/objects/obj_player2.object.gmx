@@ -57,7 +57,7 @@ alarm[0] = room_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// two_object_view(obj_player1,0)
+            <string>// two_object_view(obj_player1,0) Test
 if place_meeting(x -5,y,obj_viewL)
 {
 touchL2 = true
