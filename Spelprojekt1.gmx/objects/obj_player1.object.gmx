@@ -36,6 +36,7 @@ touchR1 = false;
 
 health = 1000
 alarm[0] = 30;
+ladder = false;
 </string>
           </argument>
         </arguments>
@@ -166,7 +167,7 @@ repeat(abs(hspd)) // Samma som för vspd, vi kollar återigen 1 pixel åt gånge
             <kind>1</kind>
             <string>///Ladder
 
-if (keyboard_check(ord("W")) || keyboard_check(ord("S")))
+if (keyboard_check(vk_up) || keyboard_check(vk_down))
 {
     if place_meeting(x, y, obj_ladder) ladder = true;
 }
@@ -175,8 +176,8 @@ if(ladder)
 {
     vspd = 0;
     grav = 0;
-    if (keyboard_check(ord("W"))) vspd = -5;
-    if (keyboard_check(ord("S"))) vspd = 5;
+    if (keyboard_check(vk_up)) vspd = -5;
+    if (keyboard_check(vk_down)) vspd = 5;
     if (!place_meeting(x,y,obj_ladder)) ladder = false;
 }
 </string>

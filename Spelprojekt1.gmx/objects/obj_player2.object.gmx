@@ -35,6 +35,7 @@ globalvar touchL2;
 touchL2 = false;
 health = 1000
 alarm[0] = room_speed;
+ladder = false;
 </string>
           </argument>
         </arguments>
