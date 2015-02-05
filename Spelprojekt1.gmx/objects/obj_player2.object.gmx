@@ -120,7 +120,6 @@ repeat(abs(hspd)) // Samma som för vspd, vi kollar återigen 1 pixel åt gånge
         }
     }
 }
-//Test
 </string>
           </argument>
         </arguments>
