@@ -15,6 +15,7 @@
     <sprite>sprites\spr_zombieMelee</sprite>
     <sprite>sprites\spr_nextRoom</sprite>
     <sprite>sprites\spr_ladder</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
