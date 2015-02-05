@@ -22,6 +22,9 @@
     <script>scripts\two_object_view.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="Effects">
+      <object>objects\effFadeToBlack</object>
+    </objects>
     <object>objects\obj_player1</object>
     <object>objects\obj_player2</object>
     <object>objects\obj_block</object>
@@ -32,9 +35,6 @@
       <object>objects\obj_control</object>
       <object>objects\obj_viewR</object>
       <object>objects\obj_nextRoom</object>
-      <objects name="Effects">
-        <object>objects\effFadeToBlack</object>
-      </objects>
     </objects>
     <object>objects\obj_jumpThru</object>
     <object>objects\obj_ladder</object>
