@@ -38,6 +38,7 @@
     </objects>
     <object>objects\obj_jumpThru</object>
     <object>objects\obj_ladder</object>
+    <object>objects\obj_invisBlock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_test</room>
