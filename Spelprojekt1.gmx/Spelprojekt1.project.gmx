@@ -43,6 +43,10 @@
     <room>rooms\room_test</room>
     <room>rooms\room2</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">42041.488783044</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
